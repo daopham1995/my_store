@@ -24,7 +24,7 @@ gem 'pry-stack_explorer'
 gem 'pry-byebug'
 gem 'pry-rails'
 gem 'pry-rescue'
-gem 'rubocop', require: false
+gem 'rubocop', '0.46.0'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'
