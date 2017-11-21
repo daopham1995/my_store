@@ -47,7 +47,7 @@ group :test do
   gem 'faker'
   gem 'guard-rspec'
   gem 'launchy'
-  gem "shoulda-matchers", github: "thoughtbot/shoulda-matchers"
+  gem 'shoulda-matchers', '2.8.0'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
