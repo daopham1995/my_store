@@ -38,12 +38,10 @@ jobs:
       - run:
           name: run tests
           command: |
-            mkdir /tmp/test-results
-            TEST_FILES="$(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
-
-            bundle exec rspec spec
             rubocop app
             rubocop spec
+
+      - run: bundle exec rspec spec
 
       # collect reports
       - store_test_results:
