@@ -29,7 +29,9 @@ jobs:
       # Database setup
       - run:
           name: pre create database
-          command: mv config/database.yml.ci config/database.yml
+          command: |
+           mv config/database.yml.ci config/database.yml
+           mv config/secrets.yml.ci config/secrets.yml
       - run: bundle exec rake db:migrate
       - run: bundle exec rake db:seed
 

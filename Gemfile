@@ -48,6 +48,7 @@ group :test do
   gem 'guard-rspec'
   gem 'launchy'
   gem 'shoulda-matchers', '2.8.0'
+  gem 'rails-controller-testing'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
