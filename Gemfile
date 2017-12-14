@@ -25,6 +25,7 @@ gem 'pry-byebug'
 gem 'pry-rails'
 gem 'pry-rescue'
 gem 'rubocop', '0.46.0'
+gem 'config'
 
 group :development, :test do
   gem 'sqlite3', '1.3.13'

@@ -64,3 +64,6 @@ node_modules
 .framgia-ci-result.temp.yml
 /test/*
 public/apidocs/*
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.ymls
